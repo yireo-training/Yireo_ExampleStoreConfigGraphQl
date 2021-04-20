@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="foobar" translate="label" type="text" sortOrder="1150" showInDefault="1" showInWebsite="1">
+            <label>Foobar</label>
+            <tab>general</tab>
+            <resource>Yireo_ExampleStoreConfigGraphQl::foobar</resource>
+            <group id="general" translate="label comment" type="text" sortOrder="10" showInDefault="1"
+                   showInWebsite="1">
+                <label>General</label>
+                <field id="example" translate="label" type="text" sortOrder="10" showInDefault="1">
+                    <label>Example</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
